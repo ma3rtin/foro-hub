@@ -37,11 +37,12 @@ public class Usuario implements UserDetails {
 
     @Override
     public String getPassword() {
-        return "";
+        return this.clave;
     }
 
     @Override
     public String getUsername() {
-        return "";
+        return this.email;
     }
+
 }

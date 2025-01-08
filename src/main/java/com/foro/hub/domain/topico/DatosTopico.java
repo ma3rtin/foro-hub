@@ -9,6 +9,6 @@ public record DatosTopico(String titulo,
                           Long autor,
                           Long curso) {
     public DatosTopico(Topico topico) {
-        this(topico.getTitulo(), topico.getMensaje(), topico.getFecha(), topico.getStatus(), topico.getUsuario().getId(), topico.getCurso().getId());
+        this(topico.getTitulo(), topico.getMensaje(), topico.getFecha_de_Creacion(), topico.getStatus(), topico.getUsuario().getId(), topico.getCurso().getId());
     }
 }

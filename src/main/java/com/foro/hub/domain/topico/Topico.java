@@ -28,7 +28,7 @@ public class Topico {
 
     private String mensaje;
 
-    private LocalDateTime fecha;
+    private LocalDateTime fecha_de_Creacion;
 
     private Boolean status;
 
